@@ -1,12 +1,14 @@
 Страница с инфографикой о вакансии
 =======================
 
-
-Количество страниц в прокте: 1
-
 Макеты https://www.dropbox.com/s/xqbflr9786cgql1/quest.psd
 
-Требования поддержки браузеров: Google Chrome 34, Mozilla Firefox 28, Apple Safari 7, Opera 18 +, Internet Explorer 11
+#### Технические требования
+- Требования поддержки браузеров: Google Chrome 34, Mozilla Firefox 28, Apple Safari 7, Opera 18 +, Internet Explorer 11
+- Ширина страницы: фиксированная
+- Ширина контентной части: 1000 px (при ширине окна браузера более 1024 тянется синий фон)
+ 
 
+#### Описание проекта
 
 
