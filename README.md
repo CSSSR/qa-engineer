@@ -4,7 +4,7 @@
 Макеты https://www.dropbox.com/s/xqbflr9786cgql1/quest.psd
 
 #### Технические требования
-- Требования поддержки браузеров: Google Chrome 34, Mozilla Firefox 28, Apple Safari 7, Opera 18 +, Internet Explorer 11
+- Требования кроссбраузерности: Google Chrome 34, Mozilla Firefox 28, Apple Safari 7, Opera 18 +, Internet Explorer 11
 - Ширина страницы: фиксированная
 - Ширина контентной части: 1000 px (при ширине окна браузера более 1024 тянется синий фон)
  
