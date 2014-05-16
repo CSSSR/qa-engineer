@@ -5,12 +5,16 @@
 https://www.dropbox.com/s/xgis623w3qoa7ne/quest.psd
 
 #### Технические требования
-Браузеры: Internet Explorer 11, Google Chrome 34, Mozilla Firefox 28, Safari 7, Opera 18+, iOS 7 (Safari), Android 4.2 (Chrome)
-Ширина страницы: контентая часть фиксированная при ширине в 1000px, при ширине окна браузера более 1024px тянется синий фон
- 
 
+##### Браузеры 
+Internet Explorer 11, Google Chrome 34, Mozilla Firefox 28, Safari 7, Opera 18+, iOS 7 (Safari), Android 4.2 (Chrome)
+
+##### Ширина страницы
+Контентая часть фиксированная при ширине в 1000px, при ширине окна браузера более 1024px тянется синий фон
+ 
 #### Описание
 Блок «Распределение обязанностей» имеет четыре состояния, все они находятся в группах слоев в макете:
+
 1. https://www.dropbox.com/s/p5a2kwpaite2ufu/1.png
 2. https://www.dropbox.com/s/4o3tda7zk86tozh/2.png 
 3. https://www.dropbox.com/s/5v2o70a84onhdgq/3.png 
