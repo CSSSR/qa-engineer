@@ -1,8 +1,7 @@
 Страница с инфографикой о вакансии
 =======================
 
-####
-Макеты 
+#### Макет
 https://www.dropbox.com/s/xgis623w3qoa7ne/quest.psd
 
 #### Технические требования
@@ -21,4 +20,4 @@ https://www.dropbox.com/s/xgis623w3qoa7ne/quest.psd
 
 Ссылки в футере должны быть кликабельными и работать. Ховеры всех ссылок должны быть красными. Ссылка «Софт для быстрого создания скриншотов» должна вести сюда http://app.prntscr.com/ru/ (открывается в новом окне).
 
-Паттерн — https://www.dropbox.com/s/6qfchnzoawwhale/pattern_1.jpg.
+Паттерны: https://www.dropbox.com/s/3sjhfzigc9cn53p/pattern_3 и https://www.dropbox.com/s/6bggiaueiyf9zpg/pattern_1.jpg
