@@ -3,6 +3,7 @@
 <head lang="rus">
     <meta charset="UTF-8">
     <title>Квест ассистента менеджера</title>
+    <link rel="icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="css/styles.min.css"/>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet'
           type='text/css'>
@@ -93,8 +94,8 @@
             <aside>
                 <h3>ПОТРЕБУЕТСЯ</h3>
                 <ul>
-                    <li>Внимательность</li>
-                    <li>Умение рассуждать логически</li>
+                    <li><input type="checkbox" id="attention" checked/><label for="attention">Внимательность</label></li>
+                    <li><input type="checkbox" id="logic" checked/> <label for="logic">Умение рассуждать логически</label></li>
                 </ul>
             </aside>
         </div>
@@ -116,10 +117,10 @@
             <aside>
                 <h3>ПОТРЕБУЕТСЯ</h3>
                 <ul>
-                    <li>Идеальный глазомер</li>
-                    <li>Чувство прекрасного</li>
-                    <li>Умение четко формулировать задачи</li>
-                    <li><a href="http://app.prntscr.com/ru/" target="_blank">Софт для быстрого создания скриншотов</a>
+                    <li><input type="checkbox" id="eye" checked/><label for="eye">Идеальный глазомер</label></li>
+                    <li><input type="checkbox" id="beautiful" class="bug" checked/><label for="beautiful">Чувство прекрасного</label></li>
+                    <li><input type="checkbox" id="tasks" checked/><label for="tasks">Умение четко формулировать задачи</label></li>
+                    <li><input type="checkbox" id="soft" checked/><label for="soft">  <a href="http://app.prntscr.com/ru/" target="_blank">Софт для быстрого создания скриншотов</a></label>
                     </li>
                 </ul>
             </aside>
@@ -143,10 +144,10 @@
             <aside>
                 <h3>ПОТРЕБУЕТСЯ</h3>
                 <ul>
-                    <li>Внимательность</li>
-                    <li>Ответственность</li>
-                    <li>Умение вести несколько дел параллельно</li>
-                    <li>Умение рассуждать логически</li>
+                    <li><input type="checkbox" id="attention2" class="bug" checked/><label for="attention2">Внимательность</label></li>
+                    <li><input type="checkbox" id="responsibility" checked/><label for="responsibility">Ответственность</label></li>
+                <li><input type="checkbox" id="parallel" checked/><label for="parallel">Умение вести несколько дел параллельно</label></li>
+                    <li><input type="checkbox" id="logic2" checked/><label for="logic2">Умение рассуждать логически</label></li>
                 </ul>
             </aside>
         </div>
@@ -162,8 +163,8 @@
             <aside>
                 <h3>ПОТРЕБУЕТСЯ</h3>
                 <ul>
-                    <li>Умение упорядочивать хаос</li>
-                    <li>Чувство прекрасного</li>
+                    <li><input type="checkbox" id="chaos" checked/><label for="chaos">Умение упорядочивать хаос</label></li>
+                    <li><input type="checkbox" id="beautiful2" class="bug" checked/><label for="beautiful2">Чувство прекрасного</label></li>
                 </ul>
             </aside>
         </div>
@@ -187,7 +188,10 @@
         </nav>
     </footer>
 </div>
-
+    <div class="egg" hidden>
+        Поздравляем, вы только что достигли 100500 уровень в тестировании!
+    </div>
+<div class="popup-background" hidden></div>
 <script src="js/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
