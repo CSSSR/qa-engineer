@@ -4,16 +4,20 @@
 #### Общее
 
 ##### Макет
-https://www.dropbox.com/s/pu0d9xtc5m56w3n/csssr_assistant_quest.zip?dl=0
+
+https://www.dropbox.com/s/6fctp1250h9hkhk/quest.psd?dl=0
+
 ##### Браузеры 
-Последние стабильные версии Internet Explorer, Google Chrome, Mozilla Firefox, Safari (OS X), Opera; iOS 8 (Safari), Android 4.4+ (Chrome)
+
+Последние стабильные версии Internet Explorer, Google Chrome, Mozilla Firefox, Safari (OS X), Opera; iOS 9 (Safari), Android 6 (Chrome)
+
 ##### Ширина страницы
+
 Контентая часть фиксированная при ширине в 1000px, при ширине окна браузера более 1024px тянется синий фон
  
 #### Описание
-Блок «Распределение обязанностей» имеет четыре состояния https://www.dropbox.com/sh/uingxu2baonjpeg/AADnhSFiqtV_SSTdPwZJh7oda?dl=0, все они находятся в группах слоев в макете.
 
-
+Блок «Распределение обязанностей» имеет четыре состояния, все они находятся в группах слоев в макете.
 
 При переключении вкладок блок с черной рамкой должен исчезать и появляться из прозрачности. Столбики с процентами не должны исчезать. При преключении столбики с процентами должны заполняться красным паттерном снизу в верх.
 
