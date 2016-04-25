@@ -5,7 +5,7 @@
 
 ##### Макет
 
-https://www.dropbox.com/s/6fctp1250h9hkhk/quest.psd?dl=0
+https://drive.google.com/open?id=0B0a6t_65xehob3JZLW1mSkRrOG8
 
 ##### Браузеры 
 
