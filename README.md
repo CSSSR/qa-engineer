@@ -9,7 +9,7 @@ https://drive.google.com/open?id=0B0a6t_65xehob3JZLW1mSkRrOG8
 
 ##### Браузеры 
 
-Последние стабильные версии Internet Explorer, Google Chrome, Mozilla Firefox, Safari (OS X), Opera; iOS 9 (Safari), Android 6 (Chrome)
+Последние стабильные версии Internet Explorer, Google Chrome, Mozilla Firefox,Edge, Safari (OS X), Opera; iOS 9 (Safari), Android 6 (Chrome)
 
 ##### Ширина страницы
 
