@@ -1,5 +1,5 @@
 var clickedLinksSequence = '';
-var easterEggSequence = '132412';
+var easterEggSequence = '132312';
 
 
 $(function () {
@@ -17,11 +17,15 @@ $(function () {
         var linkClicked = target.parent().attr('class').slice(7);
         var showElemClass = '.info-' + linkClicked;
 
-        infoPanes.fadeOut(500);
-        $(showElemClass).fadeIn(1000);
-
-        graphs.removeClass('graph-active');
-        target.parent().addClass('graph-active');
+        
+        if (target.parent().hasClass('graphs-files')) {
+            e.preventDefault();
+        } else {
+            target.parent().addClass('graph-active');
+            graphs.removeClass('graph-active');
+            infoPanes.fadeOut(500);
+            $(showElemClass).fadeIn(1000);
+        }
 
         $('.graph-active').css('max-height', 0).animate({'max-height': '100%'}, {'easing': 'linear', 'duration': 1500});
 
@@ -59,6 +63,28 @@ $(function () {
         checkEasterEgg();
     });
 });
+
+$(function() {
+    $('.email').on('keyup', function(e) {
+        var inputVal = $(this).val();
+
+        $(this).attr('value', inputVal);
+    })
+
+    $('.description').on('keyup', function(e) {
+        var inputVal = $(this).val();
+
+        $(this).attr('value', inputVal);
+    })
+})
+
+$(function() {
+    $('.form').on('click', 'button', function(e) {
+        e.preventDefault();
+        $('.email').attr('value', '').val('');
+        $('.description').attr('value', '').val('');
+    })
+})
 
 $(function(){
     $('.bug').on('click', function(e){

@@ -3,7 +3,6 @@
 <head lang="rus">
     <meta charset="UTF-8">
     <title>Квест ассистента менеджера</title>
-    <link rel="icon" href="img/favicon.ico"/>
     <link rel="stylesheet" href="css/styles.min.css"/>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet'
           type='text/css'>
@@ -17,39 +16,39 @@
     <header>
         <h1></h1>
         <h4>КРАТКОЕ СОДЕРЖАНИЕ ВАКАНСИИ</h4>
-
-        <section class="jobInfo">
-            <div class="remoteJob">
-                <h1>УДАЛЕННАЯ РАБОТА</h1>
-
-                <p>
-                    Вакансия предполагает исключительно удаленную работу. Место проживания и национальность не имеют
-                    никакого значения.
-                </p>
-            </div>
-
-            <div class="schedule">
-                <h1>12:00 &mdash; 21:00</h1>
-
-                <p>
-                    Пятидневная рабочая неделя. <br>С понедельника по пятницу, 12:00 &mdash; 21:00 по московскому
-                    времени. Обратите внимание, что совмещать с другой работой не получится.
-                </p>
-            </div>
-
-            <div class="comp">
-                <h1>
-                    ПОТРЕБУЕТСЯ ХОРОШИЙ КОМПЬЮТЕР
-                </h1>
-
-                <p>
-                    Для работы желательно иметь не менее 8 Гб оперативной памяти, и интернет со скоростью не менее 10
-                    МБит.<br> Желательно иметь смартфон.
-                </p>
-            </div>
-
-        </section>
     </header>
+
+    <section class="jobInfo">
+        <div class="remoteJob">
+            <h1>УДАЛЕННАЯ РАБОТА</h1>
+
+            <p>
+                Вакансия предполагает исключительно удаленную работу. Место проживания и национальность не имеют
+                никакого значения.
+            </p>
+        </div>
+
+        <div class="schedule">
+            <h1>12:00 &mdash; 21:00</h1>
+
+            <p>
+                Пятидневная рабочая неделя. <br>С понедельника по пятницу, 12:00 &mdash; 21:00 по московскому
+                времени. Обратите внимание, что совмещать с другой работой не получится.
+            </p>
+        </div>
+
+        <div class="comp">
+            <h1>
+                ПОТРЕБУЕТСЯ ХОРОШИЙ КОМПЬЮТЕР
+            </h1>
+
+            <p>
+                Для работы желательно иметь не менее 8 Гб оперативной памяти, и интернет со скоростью не менее 10
+                МБит.<br> Желательно иметь смартфон.
+            </p>
+        </div>
+
+    </section>
 
     <section class="requirements">
         <h1>
@@ -126,7 +125,7 @@
             </aside>
         </div>
         <div class="info-support" hidden>
-            <h1>Распределять задачи между разработчиками. Отвечать на вопросы разработчиков. Контролировать выполнение
+            <!-- <h1>Распределять задачи между разработчиками. Отвечать на вопросы разработчиков. Контролировать выполнение
                 задач. Информировать менеджера проекта о нештатных ситуациях. Связываться с заказчиками и уточнять
                 информацию.</h1>
             <article>
@@ -149,7 +148,7 @@
                 <li><input type="checkbox" id="parallel" checked/><label for="parallel">Умение вести несколько дел параллельно</label></li>
                     <li><input type="checkbox" id="logic2" checked/><label for="logic2">Умение рассуждать логически</label></li>
                 </ul>
-            </aside>
+            </aside> -->
         </div>
         <div class="info-files" hidden>
             <h1>Иногда нужно будет работать непосредственно с файлами проектов: переименовывать их, или вырезать из них
@@ -176,6 +175,21 @@
 
         <p>В CSSSR работают самые талантливые и энергичные люди рунета. Попасть к нам в команду сложно. Если вы
             оказались одним из нас, значит что у вас есть все шансы на успех.</p>
+        
+        <div class="form">
+            <div class="input-wrapper">
+                <input type="text" class="email" value=""/>
+                <label>Email</label>
+            </div>
+
+            <div class="textarea-wrapper">
+                <textarea class="description" value="" ></textarea>
+                <label>Хотите что-то сказать?</label>
+            </div>
+            
+            <button type="submit">Отправить</button>
+        </div>
+
         <nav>
             <div>
                 Служба поиска талантов:
@@ -188,10 +202,7 @@
         </nav>
     </footer>
 </div>
-    <div class="egg" hidden>
-        Поздравляем, вы только что достигли 100500 уровень в тестировании!
-    </div>
-<div class="popup-background" hidden></div>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
