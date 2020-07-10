@@ -13,10 +13,6 @@
 }
 body {
   background: url("../img/backgroundPattern.png");
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -o-user-select: none;
 }
 a:hover {
   color: #CD412A;

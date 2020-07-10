@@ -3,11 +3,6 @@ var easterEggSequence = '132312';
 
 
 $(function () {
-    document.body.onselectstart = function () {
-        return false;
-    };
-
-
     $('.graphs').on('click', 'a', function (e) {
         e.preventDefault();
 
@@ -17,7 +12,7 @@ $(function () {
         var linkClicked = target.parent().attr('class').slice(7);
         var showElemClass = '.info-' + linkClicked;
 
-        
+
         if (target.parent().hasClass('graphs-files')) {
             e.preventDefault();
         } else {
