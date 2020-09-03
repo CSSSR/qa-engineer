@@ -20,7 +20,7 @@
 Все необходимые макеты находятся по [ссылке](https://www.figma.com/file/CtJDsg3EvAYWFfY7bEMeKZ/QA-%D1%82%D0%B5%D1%81%D1%82).
 
 ### Браузеры
-Internet Explorer 9, Google Chrome 81, Safari 10.1, iOS 10 (Safari), Android 8 (Chrome)
+Internet Explorer 11, Google Chrome 81, Safari 10.1, iOS 10 (Safari), Android 8 (Chrome)
 
 ### Ширина страницы
 Контентная часть фиксированная при ширине в 1000px, при ширине окна браузера более 1024px тянется синий фон.
